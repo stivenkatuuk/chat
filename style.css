@@ -1,0 +1,73 @@
+#msg{
+    height:300px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+#msg::-webkit-scrollbar-track{
+    background: #e2e1e1;
+}
+#msg::-webkit-scrollbar{
+    width: 12px;
+}
+#msg::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.card{
+    background-color:#ececec!important;
+}
+.bg-light{
+    background-color: #ffffff!important;
+}
+.card .card-body{
+    padding-top: 1em;
+    padding-bottom: 0em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-bottom: 1.4px solid #e2e1e1;
+}
+.msgbox{
+    display: inline-flex;
+    margin-bottom: 1em;
+}
+
+body{
+    background-color: #4a4a4a;
+}
+.form-control{
+    font-size: 1em;
+    padding:1.5em;
+    border:0;
+}
+.form-control:focus,
+.form-control:hover,
+button.input-group-text:hover,
+button.input-group-text:focus{
+    box-shadow:none!important;
+    border:0px solid black!important;
+}
+button.input-group-text{
+    background-color:#ffffff;
+    padding-top: .6em;
+    padding-right: 1em;
+}
+
+.input-group .feather{
+    width:16px;
+    height:16px;
+}
+.input-group-append{
+    background-color:#ffffff;
+}
+
+.wrap-msg:first-of-type{
+    margin-top:auto!important;
+}
